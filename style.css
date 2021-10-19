@@ -1,3 +1,87 @@
+body {
+  display: flex;
+  font-family: 'Open Sans', Arial, sans-serif;
+  flex-direction: column;
+  background-color:#F7F7F7;
+  color: #1d1e20;
+  height: 100vh;
+  line-height: 1.5;
+}
+
+h1, h4 {
+  color: black;
+}
+
+header {
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+article {
+  font-size: 0.96em;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #FFF;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.nav-link {
+  font-size: 1.2em;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  width: 300px;
+  height: 100%;
+  text-align: center;
+  border-right: solid 3px lightgray;
+}
+
+#navheader {
+  font-size: 1.8em;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+}
+
+#navbar li {
+  border-top: 2px solid lightgray;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #1d1e20;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 360px;
+  padding: 20px;
+  margin-bottom: 110px;
+  min-width: 1400px;
+  max-width: 1500px;
+}
+
+
 @media (max-width:450px) {
   /* some query stuff here! */
 }
