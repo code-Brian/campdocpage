@@ -82,6 +82,37 @@ code {
 }
 
 
-@media (max-width:450px) {
-  /* some query stuff here! */
+@media (max-width:375px) {
+
+  #navbar {
+  align-self: center;
+  position: static;
+  height: 100%;
+  text-align: center;
+  border-right: none;
+  }
+
+  #navbar ul {
+    height: 100%;
+    padding: 0;
+  }
+  
+  #navbar li {
+    border-top: none;
+    border-bottom: 1px solid lightgray;
+    list-style: none;
+    position: static;
+    width: 100%;
+  }
+
+  #main-doc {
+  position: static;
+  margin: 0;
+  padding: 20px;
+  margin-top: 16px;
+  margin-bottom: 110px;
+  min-width: 300px;
+  max-width: 375px;
+}
+
 }
